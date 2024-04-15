@@ -17,7 +17,23 @@ The provided code consists of three main functions designed to work with Google 
 
 1. Call `FindFrontLineJobs` to initiate the process.
 2. Provide the URL of the website containing the job postings.( ex "https://www.applitrack.com/salkeizk12/onlineapp/default.aspx" ) 
-3. The script will scrape the job postings, and they will all be returned in a neat array. 
+3. The script will scrape the job postings, and they will all be returned in a neat array.
+   example output
+   
+   ``[ 'Cheer - Assistant Coach',
+  'Cheer Assistant Coach (Sideline)',
+  'Paraprofessional - Long Term Substitute for Leave of Absence (March 8-May 9, 2024)',
+  'Food Service - SUBSTITUTE (Part-time)',
+  '12 Month Assistant Principal',
+  'Girls Track - Assistant Coach',
+  'Girls Softball - Assistant Coach',
+  'Custodial - SUBSTITUTE',
+  'Full Time Custodian - 2nd Shift',
+  'Office Support - SUBSTITUTE',
+  'Security Supervisor',
+  'Security Supervisor - SUBSTITUTE',
+  'Nurse - SUBSTITUTE',
+  'Paraprofessional - SUBSTITUTE' ]``
 
 ### Notes
 
