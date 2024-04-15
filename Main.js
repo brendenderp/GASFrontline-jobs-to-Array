@@ -49,7 +49,7 @@ for (var i = 0; i < occurrences.length; i++) {
 
 
 
-   // I honestly dont understand asp files. and I didnt read any documentation to read this. But it seems like its a JS file
+   // I honestly dont understand asp files. and I didnt read any documentation to create this. But it seems like its a JS file
    // that dictates how the DOM should be edited using JS. Sometimes a  element gets cut off mid way though.
    //Honestly not exactly sure why...  But bellow you can see we are searching for the </td> or '); in each element.
    // Whichever comes first. Why is an entire script being sent just to set dom elements rather than
@@ -57,8 +57,8 @@ for (var i = 0; i < occurrences.length; i++) {
    //I dont know, I didnt design it... Maybe They need to use backend server time to maintain funding?
    var endTagIndex = extractedText.indexOf("</td>"); //.  ');
 
-
-   console.log(extractedText.indexOf("');") ,"< ", endTagIndex );
+   //Log this if you want to see how its deciding which endpoint its using. 
+   // console.log(extractedText.indexOf("');") ,"< ", endTagIndex );
   
    if(extractedText.indexOf("');") < endTagIndex && extractedText.indexOf("');") != -1){ endTagIndex = extractedText.indexOf("');");}
 
